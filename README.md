@@ -20,7 +20,19 @@ There is no popup, no settings screen, and no extra workflow. Install it, reload
 - It does not replace Slack's buttons with custom buttons.
 - It does not require any permissions beyond running on Slack pages.
 
-## Install for local testing
+## Install
+
+### From a GitHub Release
+
+1. Download the latest `slack-left-message-actions.zip` from the repository's Releases page.
+2. Unzip it.
+3. Open Chrome Extensions: `chrome://extensions`.
+4. Enable Developer mode.
+5. Click Load unpacked.
+6. Select the unzipped folder.
+7. Reload Slack.
+
+### From Source
 
 1. Open Chrome Extensions: `chrome://extensions`.
 2. Enable Developer mode.
@@ -28,6 +40,16 @@ There is no popup, no settings screen, and no extra workflow. Install it, reload
 4. Select this repository folder.
 
 After that, visit or reload Slack. There is no popup and no setting to enable.
+
+## Packaging a Release
+
+From the repository root:
+
+```sh
+git archive --format=zip --output=slack-left-message-actions.zip HEAD
+```
+
+Upload that zip to a GitHub Release. Users should unzip it before loading it as an unpacked Chrome extension.
 
 ## How it works
 
