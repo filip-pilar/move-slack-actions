@@ -1,0 +1,29 @@
+@media (min-width: 900px) {
+  :root {
+    --slack-left-actions-offset: 76px;
+    --slack-left-actions-lift: -12px;
+    --slack-left-actions-default-offset: 68px;
+    --slack-left-actions-default-lift: -20px;
+  }
+
+  .c-message_kit__hover .c-message_actions__container.c-message__actions,
+  .c-message_kit__actions .c-message_actions__container.c-message__actions {
+    inset-inline-start: var(--slack-left-actions-offset) !important;
+    inset-inline-end: auto !important;
+    left: var(--slack-left-actions-offset) !important;
+    right: auto !important;
+    transform: translateY(var(--slack-left-actions-lift)) !important;
+  }
+
+  .c-message_kit__hover .c-message_actions__group[data-qa="message-actions"],
+  .c-message_kit__actions .c-message_actions__group[data-qa="message-actions"] {
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+  }
+
+  .c-message_kit__actions--default .c-message_actions__container.c-message__actions {
+    inset-inline-start: var(--slack-left-actions-default-offset) !important;
+    left: var(--slack-left-actions-default-offset) !important;
+    transform: translateY(var(--slack-left-actions-default-lift)) !important;
+  }
+}
