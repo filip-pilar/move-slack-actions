@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Slack Left Message Actions does not collect, store, transmit, or sell any user data.
+Move Slack Actions does not collect, store, transmit, or sell any user data.
 
 The extension runs only on Slack pages and injects local CSS plus a small cleanup script. It does not make network requests, use analytics, access browser storage, or read message contents for processing.
 

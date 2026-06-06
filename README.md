@@ -1,4 +1,4 @@
-# Slack Left Message Actions
+# Move Slack Actions
 
 A tiny Chrome extension that moves Slack's hovered message action toolbar closer to the message text on wide screens.
 
@@ -24,7 +24,7 @@ There is no popup, no settings screen, and no extra workflow. Install it, reload
 
 ### From a GitHub Release
 
-1. Download the latest `slack-left-message-actions.zip` from the repository's Releases page.
+1. Download the latest `move-slack-actions.zip` from the repository's Releases page.
 2. Unzip it.
 3. Open Chrome Extensions: `chrome://extensions`.
 4. Enable Developer mode.
@@ -46,7 +46,7 @@ After that, visit or reload Slack. There is no popup and no setting to enable.
 From the repository root:
 
 ```sh
-git archive --format=zip --output=slack-left-message-actions.zip HEAD
+git archive --format=zip --output=move-slack-actions.zip HEAD
 ```
 
 Upload that zip to a GitHub Release. Users should unzip it before loading it as an unpacked Chrome extension.

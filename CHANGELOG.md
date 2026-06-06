@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.3
+
+- Rename the project to Move Slack Actions.
+- Update release packaging docs to use `move-slack-actions.zip`.
+
 ## 0.2.2
 
 - Tune placement separately for first messages in a sender block and compact follow-up messages.

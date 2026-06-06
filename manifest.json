@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Slack Left Message Actions",
+  "name": "Move Slack Actions",
   "description": "Moves Slack's hovered message action toolbar next to the message on wide screens.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "content_scripts": [
     {
       "matches": [
