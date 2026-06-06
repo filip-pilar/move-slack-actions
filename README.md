@@ -22,15 +22,22 @@ There is no popup, no settings screen, and no extra workflow. Install it, reload
 
 ## Install
 
-### From a GitHub Release
+### Quick Download
 
-1. Download the latest `move-slack-actions.zip` from the repository's Releases page.
-2. Unzip it.
-3. Open Chrome Extensions: `chrome://extensions`.
-4. Enable Developer mode.
-5. Click Load unpacked.
-6. Select the unzipped folder.
-7. Reload Slack.
+Download the latest release:
+
+https://github.com/filip-pilar/move-slack-actions/releases/latest/download/move-slack-actions.zip
+
+Then:
+
+1. Unzip `move-slack-actions.zip`.
+2. Open Chrome Extensions: `chrome://extensions`.
+3. Enable Developer mode.
+4. Click Load unpacked.
+5. Select the unzipped folder.
+6. Reload Slack.
+
+Chrome does not allow one-click installation from a random GitHub zip. For a true one-click install, this extension would need to be published on the Chrome Web Store.
 
 ### From Source
 
